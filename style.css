@@ -1,0 +1,342 @@
+d .body{ 
+ margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+     background: #000;
+ 
+}
+     
+         
+        .header {
+            background-color: rgb(0, 0, 0);
+            border: 5px #880202 thin ;
+         border-color:linear-gradient(135deg, #b40000, #0a0a0a) ;
+  
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 40px ;
+            
+          
+        }
+
+        .topics {
+            padding:10px 60px ;
+        }
+
+        .logo {
+            width: 120px;
+        }
+
+        .links a {
+            color: antiquewhite;
+            padding: 5px 15px;
+            text-decoration: none;
+            font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+        }
+
+        .links a:hover {
+            background-color: #141414;
+            border-radius: 15px;
+
+        }
+
+        .links button {
+            background-color: #b40000;
+            color: antiquewhite;
+            border: none;
+            padding: 3px 5px;
+            border-radius: 15px;
+        font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+        }
+        .links button:hover {
+            background-color: #f03e3e;
+        }
+
+        
+    
+.landing-page{
+ background-color: #000;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 400px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}        
+.text{
+     color:#000000;
+            padding: 5px 15px;
+            text-decoration: none;
+            font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  width: 570px;
+  
+}
+.search input {
+ border-radius: 50px ;
+ border: #880202;
+ outline: none;
+ height:30px ;
+ padding-left: 10px;
+ padding-right: 10px ;
+ text-size-adjust: 5px;
+ font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+ 
+}
+.search button{
+    position: absolute;
+    left: 370px  ;
+     background-color: #000000;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-color: #000000;
+            
+            padding: 5px 5px;
+            border-radius: 15px;
+        font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+        }
+ 
+ .search button:hover{
+    background-color: #4a4949;
+ }
+
+
+.image img {
+    border: 5px solid rgb(1, 1, 1) !important;
+    border-radius: 50px !important;
+    width: 350px !important;
+    padding:20px ;
+}
+
+
+.first-page{
+   
+}
+
+
+.trending-section{
+
+}
+
+.trending-header{
+    color: #ffffff;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 60px ;
+ font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  
+}
+.trending-header button{
+    background-color: #b40000;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-color: #000000;
+            
+            padding: 5px 5px;
+            border-radius: 15px;
+        font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+        }
+ 
+ .trending-header button:hover{
+     background-color: #f03e3e;
+ }
+
+ .trending-cards{
+margin: 10px 60px;
+display: flex;
+gap:10px;
+align-items: center;
+justify-content: space-between;
+scroll-behavior: smooth horizontal;
+display: flex;
+  gap: 15px;
+  overflow-x: auto;          /* سكرول أفقي */
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 10px;
+ }
+ .trending-cards::-webkit-scrollbar {
+  display: none;   
+ }
+ .card img{
+ border-radius: 0 !important;
+  clip-path: none !important;
+ }
+
+
+ 
+ .card{
+width: 250px;
+ 
+
+
+
+ }
+ .card .thumb{
+    
+    width: 250px;
+
+ }
+ .card-info{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0px 7px;
+background-color: #383838;
+
+ }
+
+ .card-info img{
+    width: 30px;
+    height: 30px;
+   
+    margin: 18px;
+    background-color: #383838;
+
+
+ }
+ .card-name{
+color: #ffffff;
+font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  
+ }   
+ .most-wanted-section{
+justify-content:space-between; 
+ align-items: center;
+
+
+ }
+ .most-wanted-header{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+ }
+ .most-wanted-header button{
+    background-color: #b40000;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-color: #000000;
+            
+            padding: 5px 5px;
+            border-radius: 15px;
+        font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+        }
+ 
+ .most-wanted-header button:hover{
+     background-color: #f03e3e;
+ }
+ .most-wanted-cards{
+    margin: 10px 60px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content: space-between;
+    scroll-behavior: smooth horizontal;
+    display: flex;
+  gap: 15px;
+  overflow-x: auto;          /* سكرول أفقي */
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 10px;
+  
+}
+.most-wanted-cards::-webkit-scrollbar {
+  display: none;   
+}     
+.posters-header{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+ }
+ .posters-header button{
+    background-color: #b40000;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-color: #000000;
+            
+            padding: 5px 5px;
+            border-radius: 15px;
+        font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+        }
+ 
+ .posters-header button:hover{
+     background-color: #f03e3e;
+ }
+.posters-cards{
+   margin: 10px 60px;
+   padding: 5px 0px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content: space-between;
+    scroll-behavior: smooth horizontal;
+    display: flex;
+  gap: 15px;
+  overflow-x: auto;          /* سكرول أفقي */
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 10px;
+  
+}
+.posters-cards::-webkit-scrollbar {
+  display: none;   
+}
+.rights{
+    color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
